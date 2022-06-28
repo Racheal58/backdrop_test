@@ -1,0 +1,53 @@
+type CatMini = {
+  name: string;
+  image: string;
+  id: string;
+};
+type Cat = {
+  adaptability: number;
+  affection_level: number;
+  cfa_url?: string;
+  vetstreet_url?: string;
+  vcahospitals_url?: string;
+  alt_names: string;
+  child_friendly: number;
+  country_code: string;
+  country_codes: string;
+  description: string;
+  dog_friendly: number;
+  energy_level: number;
+  experimental: number;
+  grooming: number;
+  hairless: number;
+  health_issues: number;
+  hypoallergenic: number;
+  id: string;
+  image: {
+    height: number;
+    id: string;
+    url: string;
+    width: number;
+  };
+  indoor: number;
+  intelligence: number;
+  lap?: number;
+  life_span: string;
+  name: string;
+  natural: number;
+  origin: string;
+  rare: number;
+  reference_image_id: string;
+  rex: number;
+  shedding_level: number;
+  short_legs: number;
+  social_needs: number;
+  stranger_friendly: number;
+  suppressed_tail: number;
+  temperament: string;
+  vocalisation: number;
+  weight: {
+    imperial: string;
+    metric: string;
+  };
+  wikipedia_url: string;
+};
